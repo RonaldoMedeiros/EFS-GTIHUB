@@ -10,7 +10,7 @@ on:
       - images/*.png
       - .github/workflows/main.yml
 jobs:
-  efs-senai:
+  ronaldo-senai:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
