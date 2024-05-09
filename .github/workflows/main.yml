@@ -32,6 +32,6 @@ jobs:
       - name: Envio das imagens SCP
         if: always()
         run: |
-          echo "$KEY_PATH" > ./labuser.pem
-          chmod 600 ./labuser.pem
-          scp -i ./labuser.pem imagens/*.*
+          echo "$KEY_PATH" > ./labsuser.pem
+          chmod 600 ./labsuser.pem
+          scp -i ./labsuser.pem imagens/*.*
